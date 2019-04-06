@@ -1,5 +1,11 @@
 import React from "react";
 import "./Heading.css";
+import { ButtonWrapper } from "./Button";
 export default function Heading() {
-  return <h1 className="third">i'm separate css file</h1>;
+  return (
+    <div>
+      <h1 className="third">i'm separate css file</h1>
+      <ButtonWrapper>I'm from heading</ButtonWrapper>
+    </div>
+  );
 }
