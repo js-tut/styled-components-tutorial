@@ -7,7 +7,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <ButtonWrapper>I'm in the app js</ButtonWrapper>
+        <ButtonWrapper color="#f15025">I'm in the app js</ButtonWrapper>
         <Heading />
       </div>
     );
