@@ -4,7 +4,8 @@ import { ButtonWrapper } from "./components/Button";
 import mainBcg from "./images/mainBcg.jpeg";
 import secondaryBcg from "./images/secondaryBcg.jpeg";
 import Banner from "./components/Banner";
-import Header from "./components/Header";
+import { Header } from "./components/Header";
+import { Hero } from "./components/Header";
 import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
@@ -29,7 +30,7 @@ class App extends Component {
             <ButtonWrapper>click me</ButtonWrapper>
           </Banner>
         </Header>
-        <Header />
+        <Hero img={secondaryBcg} />
       </>
     );
   }

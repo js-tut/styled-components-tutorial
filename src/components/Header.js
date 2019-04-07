@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import secondaryBcg from "../images/secondaryBcg.jpeg";
 
-export default function Header({ img, children }) {
+export function Header({ img, children }) {
   return <HeaderWrapper img={img}>{children}</HeaderWrapper>;
 }
 
@@ -12,6 +12,12 @@ const HeaderWrapper = styled.header`
   display: flex;
   align-items: center;
   justify-content: center;
+`;
+export function Hero({ img, children }) {
+  return <HeroWrapper img={img}>{children}</HeroWrapper>;
+}
+const HeroWrapper = styled(HeaderWrapper)`
+  min-height: 60vh;
 `;
 
 Header.defaultProps = {
