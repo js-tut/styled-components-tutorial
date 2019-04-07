@@ -1,6 +1,8 @@
+@import url("https://fonts.googleapis.com/css?family=Dokdo|IM+Fell+DW+Pica:400i");
 :root {
   --primaryColor: blue;
 }
+/* font-family: 'IM Fell DW Pica', serif; */
 
 .second {
   color: blue;

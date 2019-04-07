@@ -21,5 +21,4 @@ export const DangerButton = styled(Button)`
 export const SuccessButton = styled(Button)`
   color: green;
   border-color: green;
-  padding: 2rem;
 `;
