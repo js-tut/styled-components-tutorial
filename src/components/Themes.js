@@ -7,5 +7,5 @@ export const RedTheme = {
 export const GreenTheme = {
   background: "green",
   color: "#000",
-  fontFamily: `font-family: 'IM Fell DW Pica', serif;`
+  fontFamily: `font-family: Verdana, Geneva, Tahoma, sans-serif;`
 };

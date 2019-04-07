@@ -3,7 +3,9 @@
   --primaryColor: blue;
 }
 /* font-family: 'IM Fell DW Pica', serif; */
-
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 .second {
   color: blue;
 }
