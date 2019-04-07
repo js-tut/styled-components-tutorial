@@ -1,17 +1,19 @@
 import React, { Component } from "react";
 import "./App.css";
-import Heading from "./components/Heading";
 import { ButtonWrapper } from "./components/Button";
+import mainBcg from "./images/mainBcg.jpeg";
+import secondaryBcg from "./images/secondaryBcg.jpeg";
 
+import Header from "./components/Header";
 class App extends Component {
   render() {
     return (
-      <div>
-        <ButtonWrapper color="#f15025" big>
-          I'm in the app js
-        </ButtonWrapper>
-        <Heading />
-      </div>
+      <>
+        <Header img={mainBcg} title="welcome to our coffee shop">
+          <ButtonWrapper>click me</ButtonWrapper>
+        </Header>
+        <Header />
+      </>
     );
   }
 }

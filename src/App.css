@@ -1,9 +1,13 @@
 :root {
   --primaryColor: blue;
 }
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
-  margin: 2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .second {
   color: blue;
