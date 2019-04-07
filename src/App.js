@@ -3,14 +3,17 @@ import "./App.css";
 import { ButtonWrapper } from "./components/Button";
 import mainBcg from "./images/mainBcg.jpeg";
 import secondaryBcg from "./images/secondaryBcg.jpeg";
-
+import Banner from "./components/Banner";
 import Header from "./components/Header";
 class App extends Component {
   render() {
     return (
       <>
-        <Header img={mainBcg} title="welcome to our coffee shop">
-          <ButtonWrapper>click me</ButtonWrapper>
+        <Header img={mainBcg}>
+          <Banner title="fresh coffee is the best">
+            <h3>hello world</h3>
+            <ButtonWrapper>click me</ButtonWrapper>
+          </Banner>
         </Header>
         <Header />
       </>
