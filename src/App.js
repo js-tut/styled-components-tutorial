@@ -1,11 +1,14 @@
 import React, { Component } from "react";
-import { RedBox, GreenBox } from "./components/Boxes";
+import { InputBasic, InputEmail, InputAwesome } from "./components/Inputs";
 class App extends Component {
   render() {
     return (
       <div>
-        <RedBox color="red" />
-        <GreenBox color="green" />
+        <InputBasic />
+        <InputEmail />
+        <InputAwesome type="email" placeholder="johnsmith@gmail.com" />
+        <InputAwesome type="password" />
+        <InputAwesome />
       </div>
     );
   }
