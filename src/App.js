@@ -1,14 +1,10 @@
 import React, { Component } from "react";
-import { InputBasic, InputEmail, InputAwesome } from "./components/Inputs";
+import { Box } from "./components/AnimatedBox";
 class App extends Component {
   render() {
     return (
       <div>
-        <InputBasic />
-        <InputEmail />
-        <InputAwesome type="email" placeholder="johnsmith@gmail.com" />
-        <InputAwesome type="password" />
-        <InputAwesome />
+        <Box />
       </div>
     );
   }
