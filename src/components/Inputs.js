@@ -10,10 +10,10 @@ export const InputBasic = styled.input`
   }
 `;
 
-export const InputEmail = styled.input.attrs({
+export const InputEmail = styled.input.attrs(props => ({
   type: "email",
   placeholder: "johnsmith@gmail.com"
-})`
+}))`
   font-size: 1rem;
   margin: 1rem;
   padding: 0.5rem;
@@ -23,10 +23,10 @@ export const InputEmail = styled.input.attrs({
   }
 `;
 
-export const InputAwesome = styled.input.attrs({
+export const InputAwesome = styled.input.attrs(props => ({
   type: props => props.type || "text",
   placeholder: props => props.placeholder || "Enter Value"
-})`
+}))`
   font-size: 1rem;
   margin: 1rem;
   padding: 0.5rem;
